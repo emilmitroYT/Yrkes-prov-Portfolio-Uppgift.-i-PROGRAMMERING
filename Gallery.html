@@ -16,12 +16,57 @@
         <a href="https://aimcone.xyz">Aimcone</a>
         <a href="https://gamer1231.sellix.io">Sellix</a>
         <button onclick="dark()">Toggle dark mode</button>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="joo()">
         <i class="fa fa-bars"></i>
         </a>
         
     </div>
 
-    <h1>hello</h1>
+    <div class="w3-content w3-display-container">
+
+        <div class="w3-display-container mySlides">
+          <img src="logo.png" style="width:90%">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="logo.png" style="width:90%">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="logo.png" style="width:90%">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="logo.png" style="width:90%">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="logo.png" style="width:90%">
+        </div>
+        
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
 </body>
 </html>
