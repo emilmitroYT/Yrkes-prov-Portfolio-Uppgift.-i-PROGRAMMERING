@@ -59,3 +59,23 @@ body {
   background-color: black;
   color: white;
 }
+.main {
+  text-align: center;
+}
+.text {
+  background-color: rgb(91, 0, 0);
+  text-align: center;
+  width: 60%;
+  border: 15px solid rgb(0, 51, 0);
+  padding: 10px;
+  margin: 20%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(18, 4, 146);
+  color: white;
+  text-align: center;
+}

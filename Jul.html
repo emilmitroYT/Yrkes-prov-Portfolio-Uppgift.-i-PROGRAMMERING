@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="Jul.css" />
+    <script src="index.js"></script>
+    <title>Jul Kalender</title>
+  </head>
+  <body>
+    <div class='support-grid'></div>
+<section class='grid-1'>
+  <div class='title'>
+    <img src='data:image/jpeg;base64,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'>
+  </div>
+  <div class='day-1'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>1</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-2'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>2</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-3'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>3</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-4'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>4</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-5'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>5</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-6'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>6</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-7'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>7</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-8'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>8</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-9'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>9</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-10'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>10</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-11'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>11</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-12'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>12</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-13'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>13</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-14'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>14</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-15'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>15</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-16'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>16</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-17'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>17</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-18'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>18</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-19'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>19</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-20'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>20</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-21'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>21</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-22'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>22</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-23'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>23</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+  <div class='day-24'>
+    <label>
+      <input type='checkbox'>
+        <div class='door'>
+          <div class='front'>24</div>
+          <div class='back'></div>
+        </div>
+      </input>
+    </label>
+  </div>
+</section>
+  </body>
+</html>
